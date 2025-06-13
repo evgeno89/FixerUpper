@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FixerUpper - Tool Store</title>
+  <style>
+    body {
+      background-color: #dabfff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      text-align: center;
+      padding: 10px;
+    }
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    .products {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      width: 200px;
+      padding: 15px;
+      margin: 10px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+    }
+    .card button {
+      background-color: orange;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .footer-links a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+    footer {
+      background-color: #2e2e2e;
+      color: white;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome, eugen!</h1>
+    <div class="nav">
+      <a href="#">Logout</a> |
+      <a href="#">🛒 View Cart</a>
+    </div>
+  </header>
+
+  <section class="products">
+    <div class="card">
+      <img src="1.png" alt="Hammer" />
+      <p style="color: green;">211 people bought this in 48 hours</p>
+      <h3>Hammer</h3>
+      <p>£19.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="2.png" alt="Chainsaw" />
+      <p style="color: green;">202 people bought this in 48 hours</p>
+      <h3>Chainsaw</h3>
+      <p>£149.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="3.png" alt="Cordless Drill" />
+      <p style="color: green;">63 people bought this in 48 hours</p>
+      <h3>Cordless Drill</h3>
+      <p>£79.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="4.png" alt="Measuring Tape" />
+      <p style="color: green;">220 people bought this in 48 hours</p>
+      <h3>Measuring Tape</h3>
+      <p>£9.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="5.png" alt="Circular Saw" />
+      <p style="color: green;">141 people bought this in 48 hours</p>
+      <h3>Circular Saw</h3>
+      <p>£129.99</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Terms & Conditions | Privacy Policy | Contact Us | Cookie Preferences | Change Country</p>
+    <div class="footer-links">
+      <a href="#">📱 WhatsApp</a>
+      <a href="#">📘 Facebook</a>
+      <a href="#">📸 Instagram</a>
+      <a href="#">🎵 TikTok</a>
+    </div>
+  </footer>
+
+</body>
+</html>
